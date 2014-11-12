@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas</title>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="shapes.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	
+	<style type="text/css">
+		body{
+			background-color: wheat;
+
+		}
+		canvas{
+			background-color: white;
+			border: 1px, dotted;
+		}
+
+	</style>
+</head>
+<body onload ="CNV.init()">
+	<h1>Canvas</h1>
+	<canvas id ="canvas" width="900" height="450"></canvas>
+	<button onclick="CNV.start();">Start</button>
+	<button onclick="CNV.stop();">Stop</button>
+	
+</body>
+</html>
